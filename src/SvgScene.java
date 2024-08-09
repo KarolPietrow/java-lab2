@@ -28,6 +28,6 @@ public class SvgScene {
             writer.write(svgContent.toString());
         } catch (IOException e) {
             System.err.println("Błąd podczas zapisu pliku: " + e.getMessage());
-        };
+        }
     }
 }
